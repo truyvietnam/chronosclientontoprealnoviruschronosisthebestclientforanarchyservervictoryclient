@@ -475,7 +475,7 @@
 
     function startTypingAnimation() {
         if (typingInterval) clearInterval(typingInterval);
-        typingInterval = setInterval(animateTyping, 1); // Adjust speed here
+        typingInterval = setInterval(animateTyping, 20); // Adjust speed here
     }
 
     function drawParticlesBackground() {
