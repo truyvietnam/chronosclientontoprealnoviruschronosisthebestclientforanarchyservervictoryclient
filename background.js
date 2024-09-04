@@ -126,9 +126,9 @@
         }
 
         if (isCodeBackground) {
-            drawCodeBackground();
+            //drawCodeBackground();
+            drawParticlesBackground();
         } else {
-            //drawParticlesBackground();
             drawParticlesBackground();
         }
     }  
