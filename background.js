@@ -23,7 +23,6 @@
                     n = e(n);
                     t = e(t);
                     r = e(r);
-                    console.log("n: " + n + " t: " + t + " r: " + r);
                     var o = a.src + n + "," + t + "," + r;
                     if (o in F) return F[o];
                     E.imageSmoothingEnabled = false;
