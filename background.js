@@ -117,8 +117,7 @@
                 drawParticlesBackground();
                 console.log("Drew particles background");
             } else {
-                //drawCodeBackground();
-                drawParticlesBackground();
+                drawCodeBackground();
                 console.log("Drew code background");
                 isCodeBackground = true;
             }
@@ -126,8 +125,7 @@
         }
 
         if (isCodeBackground) {
-            //drawCodeBackground();
-            drawParticlesBackground();
+            drawCodeBackground();
         } else {
             drawParticlesBackground();
         }
